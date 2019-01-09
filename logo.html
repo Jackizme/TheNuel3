@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Logo Customizer</title>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a class="btn" href="index.html">Home</a></li>
+            <li><a class="btn" href="CSGO.html">CS:GO</a></li>
+            <li><a class="btn" href="OW.html">Overwatch</a></li>
+            <li><a class="btn" href="HS.html">HearthStone</a></li>
+            <li><a class="btn" href="LoL.html">League Of Legends</a></li>
+            <li><a class="btn" href="R6S.html">R6Siege</a></li>
+            <li><a class="btn" href="PUBG.html">PUBG</a></li>
+            <li><a class="btn" href="logo.html">Logo</a></li>        </ul>
+    </nav>
+</header>
+
+<div class="canvasContainer">
+    <h1>Make your own team logo</h1>
+    <canvas height="439" width="1023"></canvas>
+    <script src="JS.js"></script>
+    <div class="clearCanvas">
+    <h2>Clear the canvas</h2>
+    <button class="canvasbtn" onclick="clearCanvas()">Clear</button>
+    </div>
+    <div class = brushSize>
+    <h2>Brush Size</h2>
+    <button class="canvasbtn" onclick="brushSmall()">Small</button>
+    <button class="canvasbtn" onclick="brushMedium()">Medium</button>
+    <button class="canvasbtn" onclick="brushLarge()">Large</button>
+    </div>
+    <div class="brushColor">
+    <h2>Brush Colour</h2>
+    <button class="canvascolorRed" onclick="colorRed()">Red</button>
+    <button class="canvascolorOrange" onclick="colorOrange()">Orange</button>
+    <button class="canvascolorYellow" onclick="colorYellow()">Yellow</button>
+    <button class="canvascolorGreen" onclick="colorGreen()">Green</button>
+    <button class="canvascolorBlue" onclick="colorBlue()">Blue</button>
+    <button class="canvascolorPurple" onclick="colorPurple()">Purple</button>
+    <button class="canvascolorBlack" onclick="colorBlack()">Black</button>
+    <button class="canvascolorWhite" onclick="colorWhite()">Eraser</button>
+    </div>
+</div>
+</body>
+</html>
